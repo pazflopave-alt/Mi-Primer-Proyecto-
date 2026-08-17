@@ -1,0 +1,128 @@
+/* Configuración general de la página */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #1a365d;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #2b6cb0;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+/* Estilo para las secciones (tarjetas blancas) */
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Listas y enlaces */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #718096;
+}
+/* Estilos para el Modo Oscuro */
+body.dark-mode {
+    background-color: #1a202c;
+    color: #e2e8f0;
+}
+
+body.dark-mode section {
+    background-color: #2d3748;
+    color: #e2e8f0;
+}
+
+body.dark-mode h1, 
+body.dark-mode h2 {
+    color: #63b3ed;
+}
+
+/* Estilo para el botón */
+#btn-modo {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2b6cb0;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Estilos para el formulario de contacto */
+form input, 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    box-sizing: border-box; /* Evita que los campos se salgan del borde */
+}
+
+form button {
+    background-color: #2b6cb0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #2c5282;
+}
+/* Adaptación para pantallas de celulares */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
