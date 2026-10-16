@@ -1,56 +1,33 @@
-<!DOCTYPE html>
-<hrml lang="es"
-<head>
-    <meta charset="UTF-8"
-    <meta name="viewport"content="width=device-width,initial-scale=1.0">
-    <title> Mi perfil profecional</title>
-</head><link rel="stylesheet" href="styles.css">
-<body>
-    <header>
-        <img src="perfil.jpg" alt="Foto de perfil">
-        <h1> Florencia Paz Paredes Vejar</h1>
-        <nav>
-         <a href="index.html">Inicio</a> | 
-         <a href="contacto.html">Contacto</a>
-        </nav>
-        <p>Desarrolladora web en formacion/Gestion de Proyectos</p>
-        <p><a href="contacto.html">Ir a Contacto →</a></p>
-    </header>
-<button id="btn-modo">🌙 Modo Oscuro</button>
-    <hr>
-
-    <main>
-        ><section>
-            <h2>Sobre mi </h2>
-            <p>Hola , estoy  aprendiendo desarrollo web full stack y contruccion de producto digitales.</p>
-        </section>
-<section>
-    <h2>Mis Habilidades</h2>
-    <ul>
-        <li>HTML5 y Maquetación Web</li>
-        <li>CSS3 y Estilos Básicos</li>
-        <li>JavaScript e Interactividad</li>
-    </ul>
-</section>
-        <section>
-            <h2>Mis obejtivos de Aprendizaje </h2>
-            <ul>
-                <li>Dominar HTML 5 y CSS3 </li>
-                <li>Aprender Javascript desde los fundamentos hasta proyectos reales.</li>
-                <li>Aprender control de versiones de Git y GitHub</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Contacto & Redes</h2>
-            <p>Puedes ver mi perfil aqui </p>
-            <a>heref="http://www.linkedin.com"target="_blank">Visitar mi linkedin</a>
-        </section>
-    </main>
-    <hr>
-        <footer>
-            <p>©2026- creado en mi dia 1 de 90</p>
-        </footer>
-        <script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icon-512.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10B981" />
+    <meta name="description" content="ContaChile — Plataforma contable para contadores, empresas y clientes en Chile" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="ContaChile" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>ContaChile — Plataforma Contable</title>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  <script type="module" crossorigin src="/assets/index-fZHqHSV7.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BuSAuO42.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
 </html>
